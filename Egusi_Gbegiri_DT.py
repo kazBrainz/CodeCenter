@@ -6,17 +6,13 @@
 
 import pandas as pd
 
-xoup = pd.read_csv('soupdtnew.csv')
+xoup = pd.read_csv('soup-ingredient.csv')
 #print(xoup.head())
 
 print(xoup)
 
 
 # In[8]:
-
-
-#xoup.to_csv('soupdt.csv', index=False)
-
 
 # In[9]:
 
@@ -45,28 +41,3 @@ viz = dtreeviz(dt,X,y,
               class_names=["No","Yes"],
               scale=2.0)
 viz.view()
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
